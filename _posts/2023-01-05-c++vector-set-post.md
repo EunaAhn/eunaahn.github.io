@@ -16,7 +16,7 @@ toc_sticky: true
 set를 이용하여 vector의 중복 요소를 제거할 수 있다. 
 vector의 모든 요소를 set에 저장하고, 다시 set를 vector로 변경하면 중복 요소를 제거할 수 있습니다.
 
-<문자열 my_string이 매개변수로 주어집니다. my_string에서 중복된 문자를 제거하고 하나의 문자만 남긴 문자열을 return하도록 solution 함수를 완성해주세요.>
+문자열 my_string이 매개변수로 주어집니다. my_string에서 중복된 문자를 제거하고 하나의 문자만 남긴 문자열을 return하도록 solution 함수를 완성해주세요.
 
 ```c++
 #include <string>
