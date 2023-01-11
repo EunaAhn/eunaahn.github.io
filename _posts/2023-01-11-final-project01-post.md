@@ -1,8 +1,8 @@
 ---
-title: "블로그를 만들다"
-date: 2023-01-03 13:36:28 +0900
-categories: blog
-tags : blog first
+title: "[ios]뇌파를 이용한 졸음감지 app 기획"
+date: 2023-01-12 00:03:28 +0900
+categories: project
+tags : project ios
 header:
   teaser: /assets/blog2.png
   image: # /assets/mozilla_logo.png 
@@ -10,9 +10,9 @@ header:
 
 #### 뇌파를 이용한 졸음감지
 
-머신러닝>>워치 iOS 앱
+머신러닝 >> 워치 iOS 앱
 
-- 앱: 이름입력>>이름 저장>>졸음깨우는 방법 선택>>노래,진동(워치)
+- 앱: 이름입력 >> 이름 저장 >> 졸음깨우는 방법선택 >> 노래,진동(워치)
 
 단조로우면 졸음감지 강도 선택
 졸음 감지되는 시간이 기록되도록
@@ -54,10 +54,6 @@ header:
     참고 UI
     
     졸린시간 서로 체크>> 피드처럼 기록 공유하고 좋아요나 댓글
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/45625d1d-5a60-4e78-bfa8-424515590a5c/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8388ed0f-b3d0-480b-8f1e-877184e22737/Untitled.png)
     
 
 홈화면(음악선정포함>>음악 정하는 화면), 공유(인스타 피드), 캘린더처럼 화면(아래 졸음시간도)
