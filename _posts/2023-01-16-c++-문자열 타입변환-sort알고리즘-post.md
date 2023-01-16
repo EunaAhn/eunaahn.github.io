@@ -15,17 +15,17 @@ toc_sticky: true
 
 #### C++에서 string 타입의 문자열을 숫자로 바꾸는 함수들의 이름
 
-stoi = string to int
-stof = string to float
-stol = string to long
-stod = string to double
+- stoi = string to int
+- stof = string to float
+- stol = string to long
+- stod = string to double
 
-함수원형1 : int stoi(const string& str, size_t* idx =0, int base = 10);
-함수원형2 : float stof(const string& str, size_t* idx = 0);
+- 함수원형1 : int stoi(const string& str, size_t* idx =0, int base = 10);
+- 함수원형2 : float stof(const string& str, size_t* idx = 0);
 
-첫번째 인자 : const string& str: 변경할 문자열이 들어가게 된다.
-두번째 인자 : size_t* idx = 0: 두번째는 포인터 타입이다. 맨 첫번째 부터 숫자가 아닌 부분까지 해서 그부분의 포인터를 걸러준다. 두번째 인자는 사용하지 않겠다 하면 nullptr을 넣으면 된다.
-세번째 인자 : int base = 10 (정수형에만 존재) base 는 진수를 뜻하는 것이다. default가 10으로 되어있으면 이것은 10진수가 기본이라는 뜻이다.
+- 첫번째 인자 : const string& str: 변경할 문자열이 들어가게 된다.
+- 두번째 인자 : size_t* idx = 0: 두번째는 포인터 타입이다. 맨 첫번째 부터 숫자가 아닌 부분까지 해서 그부분의 포인터를 걸러준다. 두번째 인자는 사용하지 않겠다 하면 nullptr을 넣으면 된다.
+- 세번째 인자 : int base = 10 (정수형에만 존재) base 는 진수를 뜻하는 것이다. default가 10으로 되어있으면 이것은 10진수가 기본이라는 뜻이다.
 
 #### 정수를 문자열로 바꾸는 법
 - to_string 함수 사용
